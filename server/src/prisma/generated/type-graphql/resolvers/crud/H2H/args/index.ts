@@ -1,0 +1,14 @@
+export { AggregateH2HArgs } from "./AggregateH2HArgs";
+export { CreateManyH2HArgs } from "./CreateManyH2HArgs";
+export { CreateOneH2HArgs } from "./CreateOneH2HArgs";
+export { DeleteManyH2HArgs } from "./DeleteManyH2HArgs";
+export { DeleteOneH2HArgs } from "./DeleteOneH2HArgs";
+export { FindFirstH2HArgs } from "./FindFirstH2HArgs";
+export { FindFirstH2HOrThrowArgs } from "./FindFirstH2HOrThrowArgs";
+export { FindManyH2HArgs } from "./FindManyH2HArgs";
+export { FindUniqueH2HArgs } from "./FindUniqueH2HArgs";
+export { FindUniqueH2HOrThrowArgs } from "./FindUniqueH2HOrThrowArgs";
+export { GroupByH2HArgs } from "./GroupByH2HArgs";
+export { UpdateManyH2HArgs } from "./UpdateManyH2HArgs";
+export { UpdateOneH2HArgs } from "./UpdateOneH2HArgs";
+export { UpsertOneH2HArgs } from "./UpsertOneH2HArgs";

@@ -1,0 +1,14 @@
+export { AggregateLeagueArgs } from "./AggregateLeagueArgs";
+export { CreateManyLeagueArgs } from "./CreateManyLeagueArgs";
+export { CreateOneLeagueArgs } from "./CreateOneLeagueArgs";
+export { DeleteManyLeagueArgs } from "./DeleteManyLeagueArgs";
+export { DeleteOneLeagueArgs } from "./DeleteOneLeagueArgs";
+export { FindFirstLeagueArgs } from "./FindFirstLeagueArgs";
+export { FindFirstLeagueOrThrowArgs } from "./FindFirstLeagueOrThrowArgs";
+export { FindManyLeagueArgs } from "./FindManyLeagueArgs";
+export { FindUniqueLeagueArgs } from "./FindUniqueLeagueArgs";
+export { FindUniqueLeagueOrThrowArgs } from "./FindUniqueLeagueOrThrowArgs";
+export { GroupByLeagueArgs } from "./GroupByLeagueArgs";
+export { UpdateManyLeagueArgs } from "./UpdateManyLeagueArgs";
+export { UpdateOneLeagueArgs } from "./UpdateOneLeagueArgs";
+export { UpsertOneLeagueArgs } from "./UpsertOneLeagueArgs";

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+
+  html,
+  body,
+  #root {
+    @apply bg-backdropColor;
+  }
+}
+
+@layer components {
+}

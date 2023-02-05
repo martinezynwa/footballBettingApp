@@ -1,0 +1,30 @@
+import * as TypeGraphQL from "type-graphql";
+import * as GraphQLScalars from "graphql-scalars";
+import { Prisma } from "@prisma/client";
+import { DecimalJSScalar } from "../../scalars";
+import { ExtratimeGoalsObjectEqualityInput } from "../inputs/ExtratimeGoalsObjectEqualityInput";
+
+@TypeGraphQL.InputType("GoalsObjectEqualityInput", {
+  isAbstract: true
+})
+export class GoalsObjectEqualityInput {
+  @TypeGraphQL.Field(_type => Boolean, {
+    nullable: true
+  })
+  winner?: boolean | undefined;
+
+  @TypeGraphQL.Field(_type => TypeGraphQL.Int, {
+    nullable: false
+  })
+  fulltime!: number;
+
+  @TypeGraphQL.Field(_type => TypeGraphQL.Int, {
+    nullable: false
+  })
+  halftime!: number;
+
+  @TypeGraphQL.Field(_type => ExtratimeGoalsObjectEqualityInput, {
+    nullable: true
+  })
+  extratime?: ExtratimeGoalsObjectEqualityInput | undefined;
+}

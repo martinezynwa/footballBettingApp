@@ -1,0 +1,43 @@
+mutation fetchLeague($leagueId: Int!) {
+  fetchLeague(leagueId: $leagueId) {
+    message
+  }
+}
+
+mutation fetchTeamsForLeague($leagueId: Int!, $season: Int!) {
+  fetchTeamsForLeague(leagueId: $leagueId, season: $season) {
+    message
+  }
+}
+
+mutation fetchFinishedMatches(
+  $leagueId: Int!
+  $season: Int!
+  $fromDate: String!
+  $toDate: String!
+) {
+  fetchFinishedMatches(
+    leagueId: $leagueId
+    season: $season
+    fromDate: $fromDate
+    toDate: $toDate
+  ) {
+    message
+  }
+}
+
+mutation fetchFutureMatches(
+  $leagueId: Int!
+  $season: Int!
+  $fromDate: String!
+  $toDate: String!
+) {
+  fetchFutureMatches(
+    leagueId: $leagueId
+    season: $season
+    fromDate: $fromDate
+    toDate: $toDate
+  ) {
+    message
+  }
+}

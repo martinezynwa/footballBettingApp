@@ -1,0 +1,14 @@
+export { AggregateMatchArgs } from "./AggregateMatchArgs";
+export { CreateManyMatchArgs } from "./CreateManyMatchArgs";
+export { CreateOneMatchArgs } from "./CreateOneMatchArgs";
+export { DeleteManyMatchArgs } from "./DeleteManyMatchArgs";
+export { DeleteOneMatchArgs } from "./DeleteOneMatchArgs";
+export { FindFirstMatchArgs } from "./FindFirstMatchArgs";
+export { FindFirstMatchOrThrowArgs } from "./FindFirstMatchOrThrowArgs";
+export { FindManyMatchArgs } from "./FindManyMatchArgs";
+export { FindUniqueMatchArgs } from "./FindUniqueMatchArgs";
+export { FindUniqueMatchOrThrowArgs } from "./FindUniqueMatchOrThrowArgs";
+export { GroupByMatchArgs } from "./GroupByMatchArgs";
+export { UpdateManyMatchArgs } from "./UpdateManyMatchArgs";
+export { UpdateOneMatchArgs } from "./UpdateOneMatchArgs";
+export { UpsertOneMatchArgs } from "./UpsertOneMatchArgs";

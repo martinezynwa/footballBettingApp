@@ -1,0 +1,49 @@
+query getMatches($date: String) {
+  getMatches(date: $date) {
+    id
+    status
+    date
+    round
+    season
+    homeTeam {
+      id
+      name
+      logo
+    }
+    awayTeam {
+      id
+      name
+      logo
+    }
+    odds {
+      fixtureId
+      lastUpdate
+      bookmaker
+      winner {
+        home
+        draw
+        away
+      }
+    }
+    score {
+      homeTeam {
+        winner
+        fulltime
+        halftime
+        extratime {
+          extratime
+          penalty
+        }
+      }
+      awayTeam {
+        winner
+        fulltime
+        halftime
+        extratime {
+          extratime
+          penalty
+        }
+      }
+    }
+  }
+}
